@@ -1,0 +1,10 @@
+when@dev:
+    _errors:
+        resource: '@FrameworkBundle/Resources/config/routing/errors.xml'
+        prefix: /_error
+
+# config/routes.yaml
+upload:
+    path: /api/upload
+    controller: App\Controller\UploadController::upload
+    methods: POST
